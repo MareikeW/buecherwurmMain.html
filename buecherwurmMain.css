@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+   font-size: 30px; 
+}
+
+
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  margin-bottom: 200px;
+}
+
+.logo {
+  width: 300px;
+  height: auto;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  /* Elemente sind nebeneinander, anstelle übereinander */
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.nav-links li a {
+  color: blue;
+}
+
+.nav-links li a:hover {
+  color: red;
+}
+
+.nav-links li a:active {
+  color: blue;
+}
+
+h1 {
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    padding-top: 125px;
+}
+
+blockquote {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+
+blockquote cite {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+h2 {
+  /* ansonsten überlappen sich navbar und text, wenn man mit Links navigiert */
+  padding-top: 100px;
+}
+
