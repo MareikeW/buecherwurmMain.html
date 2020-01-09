@@ -80,3 +80,26 @@ h2 {
   margin-left: 100px;
   list-style-image: url("xsBook.png");
 }
+
+#about {
+  text-align: center;
+  padding-top: 125px;
+  padding-bottom: 100px;
+}
+
+.about-bullets {
+  line-height: 200%;
+}
+
+button {
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  margin: 20px;
+}
+
+footer {
+  margin-top: 200px;
+  margin-bottom: 50px;
+  font-size: 13px;
+}
